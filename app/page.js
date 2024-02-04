@@ -7,7 +7,7 @@ const frameMetadata = getFrameMetadata({
       label: "Jetha Memes" 
     },
   ],
-  image: 'https://www.scrolldroll.com/wp-content/uploads/2021/09/Jethalal-meme-templates-01.jpeg',
+  image: 'https://drive.google.com/file/d/1R68Ujx3YK_LuP_1NLnfady0Q4_F64cC2/view?usp=sharing',
 
   post_url: 'https://superb-fudge-7a3c83.netlify.app/api',
 });

@@ -4,7 +4,9 @@ async function getResponse(req) {//we are creating a post req
   console.log('API frame route called');
   return new NextResponse(`  <!DOCTYPE html><html><head> 
   <meta property="fc:frame" content="vNext" /> 
-  <meta property="fc:frame:image" content="https://i.pinimg.com/originals/15/b4/70/15b4702226b18c81cf3809f7f33d36b6.jpg" />   
+  <meta property="fc:frame:image" content="https://drive.google.com/file/d/1R68Ujx3YK_LuP_1NLnfady0Q4_F64cC2/view?usp=sharing" /> 
+  <meta property="fc:frame:button:3" content="Try Again 😐😐" />
+  <meta property="fc:frame:button:3:action" content="" />
   </head></html> `);
 
 }
