@@ -6,7 +6,7 @@ async function getResponse(req) {//we are creating a post req
   <meta property="fc:frame" content="vNext" /> 
   <meta property="fc:frame:image" content="https://drive.google.com/file/d/1R68Ujx3YK_LuP_1NLnfady0Q4_F64cC2/view?usp=sharing" /> 
   <meta property="fc:frame:button:3" content="Try Again 😐😐" />
-  <meta property="fc:frame:button:3:action" content="" />
+  <meta property="fc:frame:button:3:action" content="https://enchanting-choux-aa3877.netlify.app/api" />
   </head></html> `);
 
 }
