@@ -4,21 +4,21 @@ const frameMetadata = getFrameMetadata({
 
   buttons: [
     {
-      label: "Get Cat Photos" 
+      label: "Jetha Memes" 
     },
   ],
-  image: 'https://api.thecatapi.com/v1/images/search',
+  image: 'https://tenor.com/bABZh.gif',
 
   post_url: 'your_url_here',
 });
 
 export const metadata = {
-  title: 'Cat Image',//these are html page attributes, chose as you want
-  description: 'Cat Image',
+  title: 'Image',//these are html page attributes, chose as you want
+  description: 'Image',
   openGraph: { //open graph is a protocaol created by facebook, frames are built on top of these protocol
-    title: 'Cat Image',
+    title: 'Image',
     description: 'Cat Image',
-    images: ['Cat Image'],
+    images: ['Image'],
   },
   other: {
     ...frameMetadata,
