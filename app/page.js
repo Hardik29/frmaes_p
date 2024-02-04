@@ -4,12 +4,12 @@ const frameMetadata = getFrameMetadata({
 
   buttons: [
     {
-      label: "Get Cat Photos" 
+      label: "Generate Cat Image" 
     },
   ],
-  image: 'https://api.thecatapi.com/v1/images/search',
+  image: 'https://cdn2.thecatapi.com/images/MTk4OTAxMA.jpg',
 
-  post_url: 'your_url_here',
+  post_url: 'https://frmaes-pr.vercel.app/api',
 });
 
 export const metadata = {
