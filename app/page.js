@@ -9,7 +9,7 @@ const frameMetadata = getFrameMetadata({
   ],
   image: 'https://tenor.com/bABZh.gif',
 
-  post_url: 'your_url_here',
+  post_url: 'https://frmaes-p.vercel.app/api',
 });
 
 export const metadata = {
