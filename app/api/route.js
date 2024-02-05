@@ -7,7 +7,6 @@ async function getResponse(req) {//we are creating a post req
   <meta property="fc:frame" content="vNext" /> 
   <meta property="fc:frame:image" content="https://cyan-deep-moth-632.mypinata.cloud/ipfs/QmZUFzb9dYRFrYpXcp7MVNBThjWxyywEJAiF6jND8KkGrU/1%20(${no}).jpg" />   
   <meta property="fc:frame:button:1" content="Next Random Meme" />
-  <meta property="fc:frame:button:1:action" content="https://guileless-vacherin-9372b8.netlify.app/api" />
   </head></html> `);
 
 }
