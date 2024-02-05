@@ -9,7 +9,7 @@ const frameMetadata = getFrameMetadata({
   ],
   image: 'https://www.scrolldroll.com/wp-content/uploads/2021/09/Jethalal-meme-templates-01.jpeg',
 
-  post_url: 'https://frmaes-mitt2ggg8-hardik29.vercel.app/api',
+  post_url: 'https://frmaes-pr.vercel.app/api',
 });
 
 export const metadata = {
