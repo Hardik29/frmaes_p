@@ -3,12 +3,12 @@ import { getFrameMetadata } from '@coinbase/onchainkit';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: "Mint Nft" 
+      label: "xkcd meme" 
     },
   ],
   image: 'https://imgs.xkcd.com/comics/combination_vision_test.png',
 
-  post_url: 'https://enchanting-choux-aa3877.netlify.app/api',
+  post_url: 'https://friendly-rabanadas-7ccfba.netlify.app/api',
 });
 
 export const metadata = {
