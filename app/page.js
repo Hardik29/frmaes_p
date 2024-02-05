@@ -1,5 +1,4 @@
 import { getFrameMetadata } from '@coinbase/onchainkit';
-
 const frameMetadata = getFrameMetadata({
 
   buttons: [
@@ -7,7 +6,7 @@ const frameMetadata = getFrameMetadata({
       label: "Random Memes" 
     },
   ],
-  image: "https://cyan-deep-moth-632.mypinata.cloud/ipfs/QmZUFzb9dYRFrYpXcp7MVNBThjWxyywEJAiF6jND8KkGrU/1%20(2).jpg",
+  image: "https://cyan-deep-moth-632.mypinata.cloud/ipfs/QmZUFzb9dYRFrYpXcp7MVNBThjWxyywEJAiF6jND8KkGrU/1%20(1).jpg",
   post_url: 'https://guileless-vacherin-9372b8.netlify.app/api',
 });
 
