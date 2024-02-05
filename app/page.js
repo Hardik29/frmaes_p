@@ -1,5 +1,5 @@
 import { getFrameMetadata } from '@coinbase/onchainkit';
-
+const no = Math.floor((Math.random()*98)+1)
 const frameMetadata = getFrameMetadata({
 
   buttons: [
@@ -7,7 +7,7 @@ const frameMetadata = getFrameMetadata({
       label: "Jetha Memes" 
     },
   ],
-  image: 'https://www.scrolldroll.com/wp-content/uploads/2021/09/Jethalal-meme-templates-01.jpeg',
+  image: `https://cyan-deep-moth-632.mypinata.cloud/ipfs/QmZUFzb9dYRFrYpXcp7MVNBThjWxyywEJAiF6jND8KkGrU/1%20(${no}).jpg`,
 
   post_url: 'https://superb-fudge-7a3c83.netlify.app/api',
 });
