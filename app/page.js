@@ -8,7 +8,7 @@ const frameMetadata = getFrameMetadata({
   ],
   image: 'https://drive.google.com/file/d/1R68Ujx3YK_LuP_1NLnfady0Q4_F64cC2/view?usp=sharing',
 
-  post_url: 'https://enchanting-choux-aa3877.netlify.app/api',
+  post_url: 'https://jocular-cendol-df5430.netlify.app/api',
 });
 
 export const metadata = {
