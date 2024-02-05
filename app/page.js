@@ -4,12 +4,12 @@ const frameMetadata = getFrameMetadata({
 
   buttons: [
     {
-      label: "Jetha Memes" 
+      label: "Random Memes" 
     },
   ],
   image: `https://cyan-deep-moth-632.mypinata.cloud/ipfs/QmZUFzb9dYRFrYpXcp7MVNBThjWxyywEJAiF6jND8KkGrU/1%20(${no}).jpg`,
 
-  post_url: 'https://superb-fudge-7a3c83.netlify.app/api',
+  post_url: 'https://guileless-vacherin-9372b8.netlify.app/api',
 });
 
 export const metadata = {
