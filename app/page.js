@@ -5,8 +5,7 @@ const frameMetadata = getFrameMetadata({
       label: "meme generator" 
     },
   ],
-  image: `https://cyan-deep-moth-632.mypinata.cloud/ipfs/QmZUFzb9dYRFrYpXcp7MVNBThjWxyywEJAiF6jND8KkGrU/1%20(1).jpg`,
-
+  image: "https://cyan-deep-moth-632.mypinata.cloud/ipfs/QmZUFzb9dYRFrYpXcp7MVNBThjWxyywEJAiF6jND8KkGrU/1%20(1).jpg",
   post_url: 'https://glittering-capybara-aa0c46.netlify.app/api',
 });
 
