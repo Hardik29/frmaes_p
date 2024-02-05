@@ -1,15 +1,13 @@
 import { getFrameMetadata } from '@coinbase/onchainkit';
-
-const no = Math.floor((Math.random()*97)+1);
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
       label: "meme generator" 
     },
   ],
-  image: `https://cyan-deep-moth-632.mypinata.cloud/ipfs/QmZUFzb9dYRFrYpXcp7MVNBThjWxyywEJAiF6jND8KkGrU/1%20(${no}).jpg`,
+  image: `https://cyan-deep-moth-632.mypinata.cloud/ipfs/QmZUFzb9dYRFrYpXcp7MVNBThjWxyywEJAiF6jND8KkGrU/1%20(1).jpg`,
 
-  post_url: 'https://friendly-rabanadas-7ccfba.netlify.app/api',
+  post_url: 'https://glittering-capybara-aa0c46.netlify.app/api',
 });
 
 export const metadata = {
