@@ -1,12 +1,13 @@
 import { getFrameMetadata } from '@coinbase/onchainkit';
 
+const no = Math.floor((Math.random()*97)+1);
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: "xkcd meme" 
+      label: "meme generator" 
     },
   ],
-  image: 'https://imgs.xkcd.com/comics/combination_vision_test.png',
+  image: `https://cyan-deep-moth-632.mypinata.cloud/ipfs/QmZUFzb9dYRFrYpXcp7MVNBThjWxyywEJAiF6jND8KkGrU/1%20(${no}).jpg`,
 
   post_url: 'https://friendly-rabanadas-7ccfba.netlify.app/api',
 });
@@ -17,7 +18,7 @@ export const metadata = {
   openGraph: { //open graph is a protocaol created by facebook, frames are built on top of these protocol
     title: 'Image',
     description: 'Cat Image',
-    images: ['https://imgs.xkcd.com/comics/combination_vision_test.png'],
+    images: ['iamge'],
   },
   other: {
     ...frameMetadata,
