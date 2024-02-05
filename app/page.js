@@ -7,7 +7,7 @@ const frameMetadata = getFrameMetadata({
     },
   ],
   image: "https://cyan-deep-moth-632.mypinata.cloud/ipfs/QmZUFzb9dYRFrYpXcp7MVNBThjWxyywEJAiF6jND8KkGrU/1%20(1).jpg",
-  post_url: 'https://guileless-vacherin-9372b8.netlify.app/api',
+  post_url: 'https://sensational-swan-558546.netlify.app/api',
 });
 
 export const metadata = {
